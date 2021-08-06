@@ -1,1 +1,3 @@
-"hi this is a git practise code"
+hi this is a git practise page
+and adding a new line to the already exisiting file
+
