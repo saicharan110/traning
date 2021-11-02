@@ -10,4 +10,5 @@ def house():
 
 threading.Thread(target=home).start()
 threading.Thread(target=house).start()
-print(threading.active_count())
+print("thread active count",threading.active_count())
+print("program completed")
