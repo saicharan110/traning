@@ -1,11 +1,11 @@
 import threading
 
 def home():
-    for i in range(10):
+    for i in range(100):
         print("thread",i)
 
 def house():
-    for i in range(10):
+    for i in range(100):
         print("thread-2",i)
 
 threading.Thread(target=home).start()
